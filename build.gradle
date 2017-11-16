@@ -34,8 +34,13 @@ dependencies {
     // tag::actuator[]
     compile("org.springframework.boot:spring-boot-starter-actuator")
     // end::actuator[]
+
+    // Swagger
     compile("io.springfox:springfox-swagger2:2.7.0")
     compile("io.springfox:springfox-swagger-ui:2.7.0")
+
+    // Google maps api
+    compile('com.google.maps:google-maps-services:0.2.5')
 
     testCompile("junit:junit")
 }
